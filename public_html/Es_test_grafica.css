@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-feb-2019, 10.34.12
+    Author     : claudia
+*/
+
+.titolo{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.direzione{
+    width:30px;
+    
+    border: inset 2px orange;
+    
+    line-height: 30px;
+}
+
+.pulsante:active{
+    border: outset 2px orange;
+}
+.pOk{
+    left: 25px;
+    bottom: 100px;
+    width:100px;
+    height: 30px;
+}
+
+.nord{
+    left: 300px;
+    bottom: 110px
+}
+
+.sud{
+    left: 300px;
+    bottom: 50px;
+}
+.ovest{
+    left: 270px;
+    bottom: 80px;
+}
+
+.est{
+    left: 330px;
+    bottom: 80px;
+}
+
+.contenitore{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    border: solid 2px orangered;
+    box-shadow: 5px 5px 5px orange;
+    border-radius: 10px;
+}
+
+.contenitore div{
+    position: absolute;
+    border: solid 1px orange;
+    text-align: center;
+    box-shadow: 2px 2px 2px orange;
+}
+
+table.varie_arance:hover td{
+    
+    outline:solid 1px black;
+    
+}
+table.varie_arance {
+    position:relative;
+    z-index: 10;
+       
+}
+
+
+
+table.varie_arance td {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: solid 1px white;
+}
+
+table.varie_arance tr td:nth-child(odd):hover {
+  background-color: orangered;
+}
+table.varie_arance tr td:nth-child(even):hover {
+  background-color: orange;
+}
+

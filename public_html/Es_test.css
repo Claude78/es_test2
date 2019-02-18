@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-feb-2019, 9.52.40
+    Author     : claudia
+*/
+
+
+#fDialogo{
+    left:200px;
+    top:400px;
+    position: absolute;
+}
+
+#arancere{
+    position: absolute;
+
+}
+
+#arancia{
+    position: absolute;
+    height: 300px;
+    transition:all 2s;
+}
+#arancia:hover{
+    transform: rotateY(360deg);
+    
+}
